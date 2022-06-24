@@ -71,7 +71,19 @@ section h2 {
     padding: 5px;
 }
 
-section div {
+#about-me div {
+    border-left: 5px solid gold;
+    margin-left: 55px;
+    margin-right: 20px;
+}
+
+#about-me p {
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+section .all-work {
     border-left: 5px solid gold;
     margin-left: 20px;
     padding: 5px;
@@ -82,11 +94,24 @@ section div {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: left;
+    margin-top: 25px;
 }
 
 #my-work img {
-    width: 500px;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+#my-work h3,p {
+    text-align: left;
+}
+
+#my-work .main-project img {
+    width:100%;
     height: 500px;
 }
 
