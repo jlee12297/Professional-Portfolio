@@ -1,0 +1,91 @@
+:root {
+
+}
+
+/* general format for the page */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+/* header styling */
+
+header {
+    padding: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkgreen;
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+/* navigation bar formatting */
+
+header nav {
+    padding-top: 20px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* change the colors of nav links to be similar to the rest of the page's text*/
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+/* general settings for the about me, my work, contact me, my resume sections */
+section {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+section h2 {
+    margin: 5px;
+    padding: 5px;
+    border-right: 5px solid gold;
+}
+
+#my-work div {
+    display: grid;
+    grid-gap: 20px;
+}
+
+#my-work img {
+    width: 500px;
+    height: 500px;
+}
+
+#my-work a #accessibility img {
+    width: 1000px;
+    height: 500px;
+}
+
